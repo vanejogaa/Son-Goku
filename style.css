@@ -1,4 +1,6 @@
-
+body {
+    background: linear-gradient(to right, rgb(83, 83, 223), pink);
+}
 section {
     display: flex;
     width: 1050px;
@@ -7,7 +9,7 @@ section {
 }
 
 section img {
-    width: 5px;
+    width: 80px;
     flex-grow: 2;
     object-fit: cover;
     opacity: .9;
